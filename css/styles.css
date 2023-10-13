@@ -1,0 +1,32 @@
+html {
+  padding-left: 15px;
+  background-image: url("../bg.jpg");
+  background-size: cover;
+}
+
+figure {
+  background-color: aliceblue;
+  border-radius: 8px;
+  width: 500px;
+}
+figure img {
+  width: 500px;
+  border-radius: 4px 4px 0 0;
+}
+figure figcaption {
+  padding: 0 0 4px 8px;
+}
+a:link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-link {
+  color: #2c2c2c;
+}
+.menu-link#active-link {
+  background-color: aliceblue;
+}

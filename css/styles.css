@@ -6,23 +6,31 @@ html {
 body {
   color: #fff6e6;
   font-size: 12px;
+  margin: 15px;
+}
+div {
+  margin: 24px 0;
 }
 h1 {
   color: #e6e6fa;
   line-height: 2;
   font-family: Arial, Verdana, sans-serif;
+  border-bottom: 2px #00000026 solid;
 }
 h2 {
   color: #191970;
   font-family: Arial, Verdana, sans-serif;
+  padding-left: 5px;
+  border-left: 2px #000 solid;
 }
-h3,h4{
+h3,
+h4 {
   font-size: 18px;
 }
 p {
   font-size: 1.5em;
   text-indent: 1em;
-
+  padding: 2px 5px;
 }
 figure {
   background-color: aliceblue;
@@ -36,10 +44,10 @@ figure img {
 figure figcaption {
   padding: 0 0 4px 8px;
 }
-a:link {
+a {
   text-decoration: none;
 }
-a:hover{
+a:hover {
   color: #000000;
 }
 .list {
@@ -53,6 +61,11 @@ a:hover{
 .menu-link#active-link {
   background-color: aliceblue;
 }
+.menu-border {
+  width: 100px;
+  border: 1px black solid;
+  padding: 5px;
+}
 .blockgray {
   font-family: monospace;
   color: gray;
@@ -61,10 +74,10 @@ a:hover{
   text-indent: 1em;
   font-size: 80%;
 
-  background-image: URL('../bg.jpg');
-background-repeat: no-repeat;
-background-position: center center;
-  }
-.blockgray-title{
-    background-color: aqua;
+  background-image: URL("../bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.blockgray-title {
+  background-color: aqua;
 }

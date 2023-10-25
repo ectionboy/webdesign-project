@@ -81,3 +81,41 @@ a:hover {
 .blockgray-title {
   background-color: aqua;
 }
+.block {
+  display: block;
+}
+.inline {
+  display: inline;
+}
+
+.b1 {
+  position: absolute;
+  left: 50%;
+}
+.b2 {
+  position: relative;
+  right: 10px;
+}
+.b3 {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.i1 {
+  position: absolute;
+  left: 60%;
+}
+.i2 {
+  position: relative;
+  right: 10px;
+}
+.i3 {
+  position: relative;
+  left: 50px;
+}
+.m{
+ float: left;
+}
+.add{
+float: right;
+}
